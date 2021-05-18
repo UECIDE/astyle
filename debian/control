@@ -1,10 +1,13 @@
-Package: astyle-tool
 Source: astyle
-Architecture: all
-Maintainer: Matt Jenkins <matt@majenko.co.uk>
-Recommends: astyle
 Section: main
 Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+
+Package: astyle-tool
+Architecture: all
 XBSC-Group: Tools
 XBSC-Subgroup: Programming
 Description: Artistic Style Executable
