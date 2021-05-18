@@ -1,0 +1,11 @@
+Package: astyle-tool
+Source: astyle
+Architecture: all
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Recommends: astyle
+Section: main
+Priority: extra
+XBSC-Group: Tools
+XBSC-Subgroup: Programming
+Description: Artistic Style Executable
+ This is the executable tool `astyle` used by the Artistic Style plugin

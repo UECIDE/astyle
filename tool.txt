@@ -1,0 +1,26 @@
+name=astyle
+description=AStyle Formatter
+
+cmd.astyle=${tool.root}/bin/${os:name}_${os:arch}/astyle
+
+astyle.format=${cmd.astyle}::${astyle.args}
+
+tool.menu.astyle.name=Reformat code
+tool.menu.astyle.type=script
+tool.menu.astyle.script=astyle.reformat
+
+tool.icon.astyle.name=Reformat code
+tool.icon.astyle.location=editor
+tool.icon.astyle.type=script
+tool.icon.astyle.script=astyle.reformat
+tool.icon.astyle.icon=icons/astyle.png
+
+astyle.reformat.0=__builtin_bullet::Reformatting...
+astyle.reformat.1=__builtin_fetch::tool.astyle.tmp.data.in
+astyle.reformat.2=__builtin_tmpfile::tool.astyle.tmp.file::astyle-::.cpp
+astyle.reformat.3=__builtin_write_var::${tool.astyle.tmp.file}::tool.astyle.tmp.data.in
+astyle.reformat.4=${astyle.format}::${tool.astyle.tmp.file}
+astyle.reformat.5=__builtin_read_var::${tool.astyle.tmp.file}::tool.astyle.tmp.data.out
+astyle.reformat.6=__builtin_unfetch::tool.astyle.tmp.data.out
+
+
