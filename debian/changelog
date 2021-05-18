@@ -1,3 +1,15 @@
+astyle (1.0.3) uecide; urgency=low
+
+  * Added readme
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 18 May 2021 22:01:27 +0100
+
+astyle (1.0.2) uecide; urgency=low
+
+  * Added gitignore
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 18 May 2021 22:01:05 +0100
+
 astyle (1.0.1) uecide; urgency=low
 
   * Updated debian
