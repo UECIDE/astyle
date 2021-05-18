@@ -1,3 +1,9 @@
+astyle (1.0.1) uecide; urgency=low
+
+  * Updated debian
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 18 May 2021 21:59:44 +0100
+
 astyle (1.0.0) uecide; urgency=low
 
   * Initial import

@@ -1,0 +1,4 @@
+debian/.debhelper/
+debian/astyle-tool.substvars
+debian/astyle-tool/
+debian/debhelper-build-stamp
